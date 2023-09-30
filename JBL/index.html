@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/reset.css">
+    <title>JBL</title>
+</head>
+<body>
+<header class="page_header">
+    <div class="container ">
+        <div class="header_body fl jc-sb ai-c">
+            <a href="#"><img src="assets/image/logo.svg" alt=""></a>
+            <div class="header_burger">
+                <span></span>
+            </div>
+            <nav class="navigation">
+                <ul class="navbar fl jc-sb">
+                    <li><a href="#characters">Характеристики</a></li>
+                    <li><a href="#gallery">Галерея</a></li>
+                    <li><a href="#reviews">Отзывы</a></li>
+                </ul>
+                <button class="btn btn_sale fl ai-c jc-se">Купить<img src="assets/image/basket.svg" alt=""></button>
+            </nav>
+        </div>
+    </div>
+</header>
+<main>
+    <!--Cover-->
+    <section>
+        <div class="container cover">
+            <img src="assets/image/cover.png" alt="">
+            <div class="cover_text">
+                <h1>JBL Tune 510BT</h1>
+                <span>Погрузись в мир чистого звука, который захватывает тебя!</span>
+            </div>
+            <button onclick="window.location.href = '#characters';" class="btn-more fl ai-c jc-se">Подробнее <img src="assets/image/arrow.svg" alt=""></button>
+        </div>
+    </section>
+    <!--Characteristic-->
+    <section id="characters">
+        <div class="container">
+            <div class="top">
+                <h2>Характеристики</h2>
+            </div>
+            <div class="characters_cards bottom fl jc-sb">
+                <div class="characteristic_card fl fd-col rg_ ai-c">
+                    <img class="characteristic_icon" src="assets/image/bluetooth.svg" alt="#">
+                    <div class="fl fd-col characteristic_card_text">
+                        <span class="characteristic_card_header">Беспроводная связь</span>
+                        <p>
+                            Hаушники поддерживают Bluetooth 5.0, что обеспечивает стабильное и быстрое соединение с
+                            устройствами</p>
+                    </div>
+                </div>
+                <div class="characteristic_card fl fd-col rg_ ai-c">
+                    <img class="characteristic_icon" src="assets/image/battery.svg" alt="#">
+                    <div class="fl fd-col characteristic_card_text">
+                        <span class="characteristic_card_header">Аккумулятор</span>
+                        <p>Встроенный аккумулятор позволяет наушникам работать до 40 часов без подзарядки</p>
+                    </div>
+                </div>
+                <div class="characteristic_card fl fd-col rg_ ai-c">
+                    <img class="characteristic_icon" src="assets/image/sound.svg" alt="#">
+                    <div class="fl fd-col characteristic_card_text"><span class="characteristic_card_header">Звуковое качество</span>
+                        <p>JBL 510 BT обеспечивают мощный и чистый звук с глубокими басами</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="gallery">
+        <div class="container">
+            <div class="top">
+                <h2>Галерея</h2>
+            </div>
+            <div class="bottom ">
+                <div class="gallery fl ai-c jc-c swiper">
+                    <div class="swiper_btn btn_prev"></div>
+
+                    <div class="swiper-wrapper">
+
+                        <div class="gallery_slide swiper-slide">
+                            <img src="assets/image/slide1.png" alt="">
+                        </div>
+                        <div class="gallery_slide swiper-slide">
+                            <img src="assets/image/slide2.png" alt="">
+                        </div>
+                        <div class="gallery_slide swiper-slide">
+                            <img src="assets/image/slide3.png" alt="">
+                        </div>
+                        <div class="gallery_slide swiper-slide">
+                            <img src="assets/image/slide4.png" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper_btn btn_next"></div>
+                    <div class="gallery_scrollbar">
+                    <div class="swiper-scrollbar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--reviews-->
+    <section id="reviews">
+        <div class="container">
+            <div class="reviews ">
+                <div class="top">
+                    <h2>отзывы</h2>
+                </div>
+                <div class="bottom card_reviews fl fw-w jc-sb">
+                    <div class="card_review fl fd-col ">
+                        <div class="card_review_top fl jc-sb ">
+                            <span class="card_review_header">Натали</span>
+                            <img src="assets/image/star5.svg" alt="">
+                        </div>
+                        <div class="card_review_bottom">
+                            <p class="card_review_text">
+                                Наушники огонь, так долго держат заряд, что я просто нарадоваться не могу, при покупке
+                                заряд был около 40%, не заряжала, слушаю каждый день месяц-полтора по 2-3 часа, до сих
+                                пор еще зарядка не потребовалась! Звук хороший.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card_review fl fd-col">
+                        <div class="card_review_top fl jc-sb">
+                            <span class="card_review_header">Алексей</span>
+                            <img src="assets/image/star3.svg" alt="">
+                        </div>
+                        <div class="card_review_bottom">
+                            <p class="card_review_text">
+                                Я просто влюбился в эти наушники! Они имеют отличный звук с глубокими басами, что делает
+                                мою музыку еще более качественной. К тому же, активное шумоподавление позволяет мне
+                                полностью погрузиться в звуковой мир без внешних помех. Наушники JBL Tune 510BT - это
+                                отличный выбор для всех меломанов!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card_review fl fd-col">
+                        <div class="card_review_top fl jc-sb">
+                            <span class="card_review_header">Андрей</span>
+                            <img src="assets/image/star4.svg" alt="">
+                        </div>
+                        <div class="card_review_bottom">
+                            <p class="card_review_text">
+                                Наушники JBL Tune 510BT - это просто находка для меня! Они имеют отличное сочетание
+                                функциональности и комфорта. Дизайн наушников очень стильный и эргономичный, они
+                                идеально сидят на голове и не вызывают дискомфорта даже после долгого использования.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card_review fl fd-col">
+                        <div class="card_review_top fl jc-sb">
+                            <span class="card_review_header">Анджела</span>
+                            <img src="assets/image/star5.svg" alt="">
+                        </div>
+                        <div class="card_review_bottom">
+                            <p class="card_review_text">
+                                В целом, я очень рекомендую наушники JBL Tune 510BT всем, кто ищет качественные и
+                                удобные беспроводные наушники! Звук просто потрясающий - мощный и чистый с глубокими
+                                басами, которые делают мою музыку еще более насыщенной.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+<footer class="container top_footer fl jc-sb ai-c">
+    <span class="copywriter">&copy;JBL | 2023 г</span>
+    <img src="assets/image/logo_white.svg" alt="">
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="assets/script/script.js"></script>
+</body>
+</html>
